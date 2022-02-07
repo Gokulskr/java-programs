@@ -1,4 +1,4 @@
-package myproject;
+import.java.util.scanner
 public class Simple {
      public static void main(String[] args) {
          int a=10;

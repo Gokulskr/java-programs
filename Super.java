@@ -16,16 +16,24 @@ class happy
         System.out.println("happy x="+x);
     }
 }
-class happiness extends super
+class hapiness extends happy
 {
-int y;
-happiness(int x,int y)
+    int y;
+    hapiness(int x,int y)
+    {
+        happy(x);
+        this.y=y;
+    }
+void display()
 {
-happy(x);
-this.y=y;
+    System.out.println("happy x="+x);
+    System.out.println("happiness y="+y);
 }
-
 }
 public class Super {
+    public static void main(String[] args) {
+        happiness s1=new happiness(100,200);
+        s1.display();
+    }
     
 }
